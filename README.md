@@ -90,7 +90,9 @@
 │   │  ├── index.js
 ```
 ## api/
-<p>This folder contains logic related to external API communications</p>
+This folder contains logic related to external API communications
+- __ApiCalls.js__ 
+- ApiCalls.js
 
 ## assets/
 <p>This folder will store all the assets that we are using in react-native. You can add static files like fonts and images to it. Also, you can add more assets like videos in this folder according to your project requirements.</p>
