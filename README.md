@@ -91,13 +91,17 @@
 │   │  ├── index.js
 ```
 ## api/
-This folder contains logic related to external API communications
+This folder contains logic related to external API communications.
  
 ## assets/
-This folder will store all the assets that we are using in react-native. You can add static files like fonts and images to it. Also, you can add more assets like videos in this folder according to your project requirements
+This folder will store all the assets that we are using in react-native. You can add static files like fonts and images to it. Also, you can add more assets like videos in this folder according to your project requirements.
+- __fonts/__
+- __images/__
 
 ## components/
 In this folder, we create all the React components that will be part of our app and any custom component that we create during the app’s development. We can group components by features or places they will be used and components that will be used throughout our app, like buttons or texts.
+- __common/__
+- __presentation/__
 
 ## constants/
 This folder contains all the string related file.
@@ -106,10 +110,13 @@ This folder contains all the string related file.
 If you have custom hooks defined in your project you can put it over here that can be shared across your entire project.
 
 ## navigation/
-Your project base navigation goes here. You can create a stack navigator in it and export it to your application
+Your project base navigation goes here. You can create a stack navigator in it and export it to your application.
 
 ## redux/
-This folder holds all the redux files if you are using react-redux for managing state. Inside redux folder you have actions, reducers, store which can easily manage your redux files
+This folder holds all the redux files if you are using react-redux for managing state. Inside redux folder you have actions, reducers, store which can easily manage your redux files.
+- __actions/__
+- __constants/__
+- __reducers/__
 
 ## screens/
 If you have multiple screens like auth screens: login, register and profile screens, product screens it can be saved here.
